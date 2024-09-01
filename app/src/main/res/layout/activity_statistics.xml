@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/colorBackground"
+    tools:context=".StatisticsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statistiche"
+        android:textSize="32sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/gamesPlayedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Partite giocate: 0"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/gamesWonTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Partite vinte: 0"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/gamesLostTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Partite perse: 0"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/winPercentageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentuale vittoria: 0%"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/longestWordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parola più lunga: N/A"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/mostUsedWordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parola più usata: N/A (0 volte)"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium" />
+</LinearLayout>

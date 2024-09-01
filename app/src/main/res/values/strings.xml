@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Scarabeo</string>
+    <string name="multiplayer_menu_title">Multiplayer Menu</string>
+    <string name="create_game">Create Game</string>
+    <string name="join_game">Join Game</string>
+    <string name="single_player">Single Player</string>
+    <string name="multiplayer">Multiplayer</string>
+    <string name="options">Options</string>
+    <string name="statistics">Statistics</string>
+    <string name="enter_game_id">Enter Game ID</string>
+    <string name="join">Join</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">Error</string>
+    <string name="invalid_game_id">Invalid game ID</string>
+    <string name="failed_to_join_game">Failed to join game</string>
+    <string name="ok">OK</string>
+    <string name="hint_word">Inserisci una parola</string>
+    <string name="button_submit">Invia</string>
+</resources>
